@@ -232,7 +232,6 @@ ul {
 }
 
 #testimonial .item{
-  width: 90%;
   margin: 0;
   height: auto;
   align-items: center;
@@ -242,7 +241,7 @@ ul {
   flex-direction: row;
 }
 
-.owl-carousel .owl-item img {
+#testimonial img {
   width: 80px;
   height: 80px;
 }

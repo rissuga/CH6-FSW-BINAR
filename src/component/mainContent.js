@@ -1,6 +1,8 @@
 import Hero from "./hero";
 import OurSevices from "./ourServices";
 import WhyUs from "./whyUs";
+import Testimonials from "./testimonials";
+
 import iconComplete from "./../assets/why-us/icon_complete.svg";
 import iconPrice from "./../assets/why-us/icon_price.svg";
 import iconHours from "./../assets/why-us/icon_24hrs.svg";
@@ -27,6 +29,17 @@ const mainContent = ()=>{
                     </div>
                 </div>
             </div>
+
+            <div className="testimonial mb-4" id="testimonial">
+                <div className="conatiners">
+                    <div className="d-flex align-items-center flex-column mb-4">
+                        <h1 className="font__size__24 fw-bold mb-2">Testimonial</h1>
+                        <p className="font__size__14 px-3">Berbagai review positif dari para pelanggan kami</p>
+                    </div> 
+                    <Testimonials />
+                </div>
+            </div>
+
         </div>
     )
    
