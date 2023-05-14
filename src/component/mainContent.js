@@ -2,6 +2,7 @@ import Hero from "./hero";
 import OurSevices from "./ourServices";
 import WhyUs from "./whyUs";
 import Testimonials from "./testimonials";
+import Banner from "./banner";
 
 import iconComplete from "./../assets/why-us/icon_complete.svg";
 import iconPrice from "./../assets/why-us/icon_price.svg";
@@ -39,6 +40,8 @@ const mainContent = ()=>{
                     <Testimonials />
                 </div>
             </div>
+
+            <Banner />
 
         </div>
     )
