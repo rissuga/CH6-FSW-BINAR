@@ -1,6 +1,6 @@
 import imageCar from './../assets/img_car.svg'
 
-const Hero = ()=> {
+const hero = ()=> {
     return (
         <div id="hero" className="hero bg__grey">
             <div className="container">
@@ -20,4 +20,4 @@ const Hero = ()=> {
     )
 }
 
-export default Hero;
+export default hero;

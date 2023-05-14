@@ -1,7 +1,7 @@
 import iconService from './../assets/services/icon_check.svg';
 import imageService from './../assets/services/img_service.svg';
 
-const OurSevices = ()=>{
+const ourSevices = ()=>{
     return(
         <div id="services" className="our-services py-4">
             <div className="container">
@@ -29,4 +29,4 @@ const OurSevices = ()=>{
     
 }
 
-export default OurSevices;
+export default ourSevices;

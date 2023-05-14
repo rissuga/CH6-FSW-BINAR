@@ -1,7 +1,7 @@
 import Hero from "./Hero";
 import OurSevices from "./OurServices";
 
-const MainContent = ()=>{
+const mainContent = ()=>{
     return(
         <div>
             <Hero />
@@ -11,4 +11,4 @@ const MainContent = ()=>{
    
 }
 
-export default MainContent;
+export default mainContent;
