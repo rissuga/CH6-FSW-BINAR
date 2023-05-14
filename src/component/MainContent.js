@@ -1,5 +1,5 @@
-import Hero from "./Hero";
-import OurSevices from "./OurServices";
+import Hero from "./hero";
+import OurSevices from "./ourServices";
 
 const mainContent = ()=>{
     return(
