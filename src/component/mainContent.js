@@ -3,6 +3,7 @@ import OurSevices from "./ourServices";
 import WhyUs from "./whyUs";
 import Testimonials from "./testimonials";
 import Banner from "./banner";
+import FAQ from "./faq";
 
 import iconComplete from "./../assets/why-us/icon_complete.svg";
 import iconPrice from "./../assets/why-us/icon_price.svg";
@@ -42,6 +43,54 @@ const mainContent = ()=>{
             </div>
 
             <Banner />
+
+            <div className="py-5" id="faq">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <p class="font__size__24 mb-2"><strong> Frequently Asked Question</strong></p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+
+                        <div className="col-lg-6">
+                            <div className="accordion accordion-flush" id="accordionFlushExample">
+                                <FAQ 
+                                heading="flush-headingOne"
+                                colapse="flush-collapseOne"
+                                colapseTarget="#flush-collapseOne"
+                                faq="Apa saja syarat yang dibutuhkan?"
+                                />
+                                <FAQ 
+                                heading="flush-headingTwo"
+                                colapse="flush-collapseTwo"
+                                colapseTarget="#flush-collapseTwo"
+                                faq="Berapa hari minimal sewa mobil lepas kunci?"
+                                />
+                                <FAQ 
+                                heading="flush-headingThree"
+                                colapse="flush-collapseThree"
+                                colapseTarget="#flush-collapseThree"
+                                faq="Berapa hari sebelumnya sabaiknya booking sewa mobil?"
+                                />
+                                <FAQ 
+                                heading="flush-headingFour"
+                                colapse="flush-collapseFour"
+                                colapseTarget="#flush-collapseFour"
+                                faq="Apakah Ada biaya antar-jemput?"
+                                />
+                                <FAQ 
+                                heading="flush-headingFive"
+                                colapse="flush-collapseFive"
+                                colapseTarget="#flush-collapseFive"
+                                faq="Bagaimana jika terjadi kecelakaan"
+                                />
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
 
         </div>
     )
