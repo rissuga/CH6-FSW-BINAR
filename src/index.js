@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import CariMobil from './CariMobil';
+import PageNotFound from './component/PageNotFound';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="cars" element={<CariMobil />} />
+      <Route path="*" element={<PageNotFound />} />
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
