@@ -6,7 +6,7 @@ import { Route, Routes } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
-import CariMobil from './cariMobil';
+import CariMobil from './CariMobil';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -1,9 +1,9 @@
-import Hero from "./hero";
-import OurSevices from "./ourServices";
-import WhyUs from "./whyUs";
-import Testimonials from "./testimonials";
-import Banner from "./banner";
-import FAQ from "./faq";
+import Hero from "./Hero";
+import OurSevices from "./OurServices";
+import WhyUs from "./WhyUs";
+import Testimonials from "./Testimonials";
+import Banner from "./Banner";
+import FAQ from "./Faq";
 
 import iconComplete from "./../assets/why-us/icon_complete.svg";
 import iconPrice from "./../assets/why-us/icon_price.svg";
