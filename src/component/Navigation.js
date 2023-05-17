@@ -7,10 +7,10 @@ const Navigation = ()=>{
                 <nav className="container bg-grey py-2">
                     <div id="logo"></div>
                     <ul class="flex-row gap-32 no-mp nav-list">
-                        <li><a className="link-no-decoration font__size__14" href="/#">Our Services</a></li>
-                        <li><a className="link-no-decoration font__size__14" href="/#">Why Us</a></li>
-                        <li><a className="link-no-decoration font__size__14" href="/#">Testimonial</a></li>
-                        <li><a className="link-no-decoration font__size__14" href="/#">FAQ</a></li>
+                        <li><a className="link-no-decoration font__size__14" href="/#services">Our Services</a></li>
+                        <li><a className="link-no-decoration font__size__14" href="/#whyUs">Why Us</a></li>
+                        <li><a className="link-no-decoration font__size__14" href="/#testimonial">Testimonial</a></li>
+                        <li><a className="link-no-decoration font__size__14" href="/#faq">FAQ</a></li>
                         <li><button className="btn btn-success">Register</button></li>
                     </ul>
                     <button id="sidebar-menu" className="btn-burger-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
@@ -26,9 +26,9 @@ const Navigation = ()=>{
                 <div className="offcanvas-body">
                     <ul className="flex-column no-mp">
                             <li><a className="link-no-decoration font-size-14" href="#services">Our Services</a></li>
-                            <li><a className="link-no-decoration font-size-14" href="/#">Why Us</a></li>
-                            <li><a className="link-no-decoration font-size-14" href="/#">Testimonial</a></li>
-                            <li><a className="link-no-decoration font-size-14" href="/#">FAQ</a></li>
+                            <li><a className="link-no-decoration font-size-14" href="/#whyUs">Why Us</a></li>
+                            <li><a className="link-no-decoration font-size-14" href="/#testimonial">Testimonial</a></li>
+                            <li><a className="link-no-decoration font-size-14" href="/#faq">FAQ</a></li>
                             <li><button className="btn btn-success font__size__14">Register</button></li>
                     </ul>
                 </div>
