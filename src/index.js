@@ -8,17 +8,22 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import CariMobil from './CariMobil';
 import PageNotFound from './component/PageNotFound';
+import {store} from './store/store';
+import { Provider } from 'react-redux';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="cars" element={<CariMobil />} />
-      <Route path="*" element={<PageNotFound />} />
-    </Routes>
-    </BrowserRouter>
+      <Provider store={store}>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<App />} />
+            <Route path="cars" element={<CariMobil />} />
+            <Route path="*" element={<PageNotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </Provider>
   </React.StrictMode>
 );
 

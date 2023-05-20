@@ -6,7 +6,7 @@ const Navigation = ()=>{
             <div className="header bg__grey fixed-top">
                 <nav className="container bg-grey py-2">
                     <div id="logo"></div>
-                    <ul class="flex-row gap-32 no-mp nav-list">
+                    <ul className="flex-row gap-32 no-mp nav-list">
                         <li><a className="link-no-decoration font__size__14" href="/#services">Our Services</a></li>
                         <li><a className="link-no-decoration font__size__14" href="/#whyUs">Why Us</a></li>
                         <li><a className="link-no-decoration font__size__14" href="/#testimonial">Testimonial</a></li>
@@ -18,7 +18,7 @@ const Navigation = ()=>{
                     </button>
                 </nav>
             </div>
-            <div className="offcanvas offcanvas-end reset" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div className="offcanvas offcanvas-end reset" tabIndex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                 <div className="offcanvas-header">
                     <h5 className="offcanvas-title" id="offcanvasRightLabel"><b>BCR</b></h5>
                     <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>

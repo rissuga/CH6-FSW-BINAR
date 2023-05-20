@@ -1,8 +1,14 @@
 const searchBar = ()=>{
+    
+
+
+    const handleFindCar = ()=>{
+        console.log('stest')
+    }
 
     return(
         <section className="search__box">
-            <div class="search__content">
+            <div className="search__content">
                 <div className="input-group d-flex flex-column pe-2">
                     <p>Tipe Driver</p>
                     <select className="form-select" id="driver" required>
@@ -21,13 +27,13 @@ const searchBar = ()=>{
                 </div>
                 <div className="input-group d-flex flex-column pe-2">
                     <p>Waktu Jemput/Ambil</p>
-                    <input className="form-control" id="time" name="time" placeholder="Disabled input" type="time"/>
+                    <input className="form-control" id="time" name="time"  placeholder="Disabled input"  type="time"/>
                 </div>
                 <div className="input-group d-flex flex-column pe-2">
                     <p>Jumlah Penumpang(optional)</p>
                     <input className="form-control" id="capacity" type="number" placeholder="Jumlah Penumpang"/>
                 </div>
-                <button  className="btn btn-search" id="searchBtn">
+                <button  className="btn btn-search" id="searchBtn" onClick={handleFindCar}>
                     Cari Mobil
                 </button>
             </div>

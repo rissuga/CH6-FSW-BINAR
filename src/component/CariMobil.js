@@ -2,9 +2,12 @@ import Navigation from "./Navigation";
 import SearchBar from "./SearchBar";
 import Footer from "./Footer";
 import imageCar from './../assets/img_car.svg';
+import HasilCariMobil from "./HasilCariMobil";
+
 
 
 const cariMobil = ()=>{
+
     return (
         <div>
             <Navigation />
@@ -22,7 +25,8 @@ const cariMobil = ()=>{
                 </div>
                 </div>
             </div>
-            <SearchBar />
+            {/* <SearchBar /> */}
+            <HasilCariMobil />
             <Footer />
         </div>
     );
