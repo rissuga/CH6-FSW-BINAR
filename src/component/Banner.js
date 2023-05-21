@@ -1,7 +1,7 @@
 const banner = ()=>{
     return (
         
-    <section id="banner" class="py-5 mb-2" >
+    <section id="banner" className="py-5 mb-2" >
         <div className="container py-5 banner-section px-5">
             <h1 className="font__heading__1">Sewa Mobil di (Lokasimu) Sekarang</h1>
             <p className="mb-5">

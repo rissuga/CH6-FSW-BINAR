@@ -76,19 +76,6 @@ ul {
   text-decoration: none;
 }
 
-.btn.btn-success {
-  background: #5CB85F;
-  border-radius: 2px;
-  padding: 8px 12px;
-  border: none;
-  width: auto;
-}
-
-.btn-burger-menu {
-  border: none;
-  background-color: transparent;
-}
-
 #sidebar-menu {
   display: none;
 }

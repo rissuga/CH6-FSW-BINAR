@@ -1,11 +1,3 @@
-import iconFacebook from './../assets/footer/icon_facebook.svg';
-import iconInstagram from './../assets/footer/icon_instagram.svg';
-import iconTwitter from './../assets/footer/icon_twitter.svg';
-import iconMail from './../assets/footer/icon_mail.svg';
-import iconTwitch from './../assets/footer/icon_twitch.svg';
-import logo from './../assets/logo.svg';
-
-
 const footer = ()=>{
     return (
         <footer id="footer" className="footer py-5">
@@ -38,15 +30,15 @@ const footer = ()=>{
                     </div>
                     <div className="col-lg-4 mb-3">
                         <p className="font__size__14">Connect With Us</p>
-                        <a className="link-no-decoration " href="/#"> <img src={iconFacebook} alt=""/></a>
-                        <a className="link-no-decoration ms-2" href="/#"> <img src={iconInstagram} alt=""/></a>
-                        <a className="link-no-decoration ms-2" href="/#"> <img src={iconTwitter} alt=""/></a>
-                        <a className="link-no-decoration ms-2" href="/#"> <img src={iconMail} alt=""/></a>
-                        <a className="link-no-decoration ms-2" href="/#"> <img src={iconTwitch} alt=""/></a>
+                        <a className="link-no-decoration " href="/#"> <img src='./images/footer/icon_facebook.svg' alt="facebook"/></a>
+                        <a className="link-no-decoration ms-2" href="/#"> <img src='./images/footer/icon_instagram.svg' alt="instagram"/></a>
+                        <a className="link-no-decoration ms-2" href="/#"> <img src='./images/footer/icon_twitter.svg' alt="twitter"/></a>
+                        <a className="link-no-decoration ms-2" href="/#"> <img src='./images/footer/icon_mail.svg' alt="mail"/></a>
+                        <a className="link-no-decoration ms-2" href="/#"> <img src='./images/footer/icon_twitch.svg' alt="twitch"/></a>
                     </div>
                     <div className="col-lg-3">
                         <p className="font__size__14">Copyright Binar 2022</p>
-                        <a href="/#"><img src={logo} alt=""/></a>
+                        <a href="/#"><img src='./images/logo.svg' alt=""/></a>
                     </div>
                 </div>
             </div>

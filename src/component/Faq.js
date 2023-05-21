@@ -1,7 +1,7 @@
 const faq = (props)=>{
     return(
         <div className="accordion-item faq__reset mb-3">
-                <h2 class="accordion-header" id={props.heading}>
+                <h2 className="accordion-header" id={props.heading}>
                   <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={props.colapseTarget} aria-expanded="false" aria-controls={props.colapse}>
                     {props.faq}
                   </button>

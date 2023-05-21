@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { useSelector,useDispatch } from "react-redux";
 import { updatedFilteredCars } from "../features/car/carSlice";
-import Swal from 'sweetalert2'
+import Swal from 'sweetalert2';
+
 
 const HasilCariMobil = ()=>{
     const filteredCars = useSelector(state => state.counter.filteredCars)

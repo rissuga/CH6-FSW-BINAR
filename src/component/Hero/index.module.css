@@ -1,0 +1,40 @@
+
+  .hero__btn {
+    background: #5CB85F;
+    border-radius: 2px;
+    padding: 8px 12px;
+    border: none;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 10px;
+    color: #FFFFFF;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 576px){
+    .img__hero {
+    height: auto;
+    width: 103%;
+    }
+  }
+  
+  @media screen and (max-width: 992px){
+    .img__hero {
+    height: auto;
+    width: 100%;
+    }
+  }
+  @media screen and (max-width: 1200px){
+    .img__hero {
+    height: auto;
+    width: 102%;
+    }
+  
+  }

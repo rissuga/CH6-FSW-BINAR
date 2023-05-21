@@ -1,7 +1,5 @@
 import Navigation from "./Navigation";
-import SearchBar from "./SearchBar";
 import Footer from "./Footer";
-import imageCar from './../assets/img_car.svg';
 import HasilCariMobil from "./HasilCariMobil";
 
 
@@ -20,7 +18,7 @@ const cariMobil = ()=>{
                     </div>
 
                     <div className="col-lg-6 justify-content-end">
-                    <img src={imageCar} alt="car" className="img-hero" style={{ right: 0 }} width="121%" />
+                    <img src='./images/img_car.svg' alt="car" className="img-hero" style={{ right: 0 }} width="121%" />
                     </div>
                 </div>
                 </div>
