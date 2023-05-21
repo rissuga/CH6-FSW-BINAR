@@ -10,7 +10,6 @@ import { Provider } from 'react-redux';
 
 import Home from './pages/Home';
 import FindCar from './pages/FindCar';
-import Coba from './pages/coba'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -21,7 +20,6 @@ root.render(
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="cars" element={<FindCar />} />
-            <Route path="ho" element={<Coba />} />
             <Route path="*" element={<PageNotFound />} />
           </Routes>
         </BrowserRouter>

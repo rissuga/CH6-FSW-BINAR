@@ -5,6 +5,9 @@ import Testimonials from "./Testimonials";
 import Banner from "./Banner";
 import FAQ from "./Faq";
 
+
+
+
 const mainContent = ()=>{
     return(
         <div>
