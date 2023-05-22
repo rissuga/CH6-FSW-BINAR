@@ -17,6 +17,6 @@ This project is about implemetation Backend integration with SPA using React JS,
 ## How To Run
 
 1. Install Dependencies
-npm i
-2. Run on Dev Mode
-npm start
+    npm i
+3. Run on Dev Mode
+    npm start
