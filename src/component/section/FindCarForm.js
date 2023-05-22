@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { updatedFilteredCars } from '../../features/car/carSlice'
 import Swal from 'sweetalert2'
 
-const HasilCariMobil = () => {
+const FindCarForm = () => {
   const filteredCars = useSelector(state => state.counter.filteredCars)
   const url = 'https://raw.githubusercontent.com/fnurhidayat/probable-garbanzo/main/data/cars.min.json'
   const [cars, setCars] = useState([])
@@ -98,4 +98,4 @@ const HasilCariMobil = () => {
   )
 }
 
-export default HasilCariMobil
+export default FindCarForm

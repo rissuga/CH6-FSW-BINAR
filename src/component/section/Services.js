@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ourSevices = () => {
+const Sevices = () => {
   return (
         <div id="services" className="our-services py-4">
             <div className="container">
@@ -27,4 +27,4 @@ const ourSevices = () => {
   )
 }
 
-export default ourSevices
+export default Sevices

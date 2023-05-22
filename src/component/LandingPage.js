@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from './section/Hero'
-import OurSevices from './section/OurServices'
+import OurSevices from './section/Services'
 import WhyUs from './section/WhyUs'
 import Testimonials from './section/Testimonials'
 import Banner from './section/Banner'

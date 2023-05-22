@@ -1,9 +1,9 @@
 import React from 'react'
 import Navigation from './section/Navigation'
 import Footer from './section/Footer'
-import HasilCariMobil from './section/HasilCariMobil'
+import FindCarForm from './section/FindCarForm'
 
-const FindCar = () => {
+const FindCars = () => {
   return (
         <div>
             <Navigation />
@@ -21,11 +21,10 @@ const FindCar = () => {
                 </div>
                 </div>
             </div>
-            {/* <SearchBar /> */}
-            <HasilCariMobil />
+            <FindCarForm />
             <Footer />
         </div>
   )
 }
 
-export default FindCar
+export default FindCars
