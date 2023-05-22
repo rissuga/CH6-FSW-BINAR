@@ -1,6 +1,7 @@
+import React from 'react'
 
-const Navigation = ()=>{
-    return (
+const Navigation = () => {
+  return (
         <div>
             <div className="header bg__grey fixed-top">
                 <nav className="container bg-grey py-2">
@@ -32,11 +33,8 @@ const Navigation = ()=>{
                     </ul>
                 </div>
             </div>
-        
         </div>
-        
-    );
+  )
 }
 
-
-export default Navigation;
+export default Navigation

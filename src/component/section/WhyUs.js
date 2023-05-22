@@ -1,5 +1,7 @@
-const whyUs = (props)=>{
-    return(
+import React from 'react'
+
+const whyUs = (props) => {
+  return (
         <div className="col-md-3 d-flex align-items-stretch mb-3">
                     <div className="card card-3 w-100 card-button">
                         <div className="card-body">
@@ -17,7 +19,7 @@ const whyUs = (props)=>{
                         </div>
                     </div>
                 </div>
-    );
+  )
 }
 
-export default whyUs;
+export default whyUs

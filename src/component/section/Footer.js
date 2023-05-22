@@ -1,5 +1,7 @@
-const footer = ()=>{
-    return (
+import React from 'react'
+
+const footer = () => {
+  return (
         <footer id="footer" className="footer py-5">
             <div className="container">
                 <div className="row">
@@ -43,7 +45,7 @@ const footer = ()=>{
                 </div>
             </div>
         </footer>
-    );
+  )
 }
 
-export default footer;
+export default footer

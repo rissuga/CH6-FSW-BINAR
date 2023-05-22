@@ -6,9 +6,9 @@ export const carSlice = createSlice({
     filteredCars: []
   },
   reducers: {
-    updatedFilteredCars: (state,action) => {
+    updatedFilteredCars: (state, action) => {
       state.filteredCars = action.payload
-    },
+    }
   }
 })
 

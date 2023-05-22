@@ -3,7 +3,7 @@ import Navigation from './section/Navigation'
 import Footer from './section/Footer'
 import HasilCariMobil from './section/HasilCariMobil'
 
-const cariMobil = () => {
+const FindCar = () => {
   return (
         <div>
             <Navigation />
@@ -28,4 +28,4 @@ const cariMobil = () => {
   )
 }
 
-export default cariMobil
+export default FindCar

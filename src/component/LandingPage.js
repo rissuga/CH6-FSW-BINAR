@@ -1,15 +1,13 @@
-import Hero from "./Hero";
-import OurSevices from "./OurServices";
-import WhyUs from "./WhyUs";
-import Testimonials from "./Testimonials";
-import Banner from "./Banner";
-import FAQ from "./Faq";
+import React from 'react'
+import Hero from './section/Hero'
+import OurSevices from './section/OurServices'
+import WhyUs from './section/WhyUs'
+import Testimonials from './section/Testimonials'
+import Banner from './section/Banner'
+import FAQ from './section/Faq'
 
-
-
-
-const mainContent = ()=>{
-    return(
+const LandingPage = () => {
+  return (
         <div>
             <Hero />
             <OurSevices />
@@ -34,7 +32,7 @@ const mainContent = ()=>{
                     <div className="d-flex align-items-center flex-column mb-4">
                         <h1 className="font__size__24 fw-bold mb-2">Testimonial</h1>
                         <p className="font__size__14 px-3">Berbagai review positif dari para pelanggan kami</p>
-                    </div> 
+                    </div>
                     <Testimonials />
                 </div>
             </div>
@@ -51,31 +49,31 @@ const mainContent = ()=>{
 
                         <div className="col-lg-6">
                             <div className="accordion accordion-flush" id="accordionFlushExample">
-                                <FAQ 
+                                <FAQ
                                 heading="flush-headingOne"
                                 colapse="flush-collapseOne"
                                 colapseTarget="#flush-collapseOne"
                                 faq="Apa saja syarat yang dibutuhkan?"
                                 />
-                                <FAQ 
+                                <FAQ
                                 heading="flush-headingTwo"
                                 colapse="flush-collapseTwo"
                                 colapseTarget="#flush-collapseTwo"
                                 faq="Berapa hari minimal sewa mobil lepas kunci?"
                                 />
-                                <FAQ 
+                                <FAQ
                                 heading="flush-headingThree"
                                 colapse="flush-collapseThree"
                                 colapseTarget="#flush-collapseThree"
                                 faq="Berapa hari sebelumnya sabaiknya booking sewa mobil?"
                                 />
-                                <FAQ 
+                                <FAQ
                                 heading="flush-headingFour"
                                 colapse="flush-collapseFour"
                                 colapseTarget="#flush-collapseFour"
                                 faq="Apakah Ada biaya antar-jemput?"
                                 />
-                                <FAQ 
+                                <FAQ
                                 heading="flush-headingFive"
                                 colapse="flush-collapseFive"
                                 colapseTarget="#flush-collapseFive"
@@ -90,8 +88,7 @@ const mainContent = ()=>{
             </div>
 
         </div>
-    )
-   
+  )
 }
 
-export default mainContent;
+export default LandingPage

@@ -1,5 +1,6 @@
-const faq = (props)=>{
-    return(
+import React from 'react'
+const faq = (props) => {
+  return (
         <div className="accordion-item faq__reset mb-3">
                 <h2 className="accordion-header" id={props.heading}>
                   <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={props.colapseTarget} aria-expanded="false" aria-controls={props.colapse}>
@@ -10,7 +11,7 @@ const faq = (props)=>{
                   <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
                 </div>
               </div>
-    );
+  )
 }
 
-export default faq;
+export default faq

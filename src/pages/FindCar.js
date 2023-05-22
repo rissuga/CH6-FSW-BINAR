@@ -1,11 +1,12 @@
-import CariMobil from './../component/CariMobil';
+import React from 'react'
+import FindCars from '../component/FindCars'
 
-function FindCar() {
-    return (
+function FindCar () {
+  return (
       <div>
-        <CariMobil />
+        <FindCars />
       </div>
-    );
-  }
+  )
+}
 
-export default FindCar;
+export default FindCar
