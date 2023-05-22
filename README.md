@@ -11,12 +11,12 @@ This project is about implemetation Backend integration with SPA using React JS,
 
 ## Accessing Routes
 
-• http://{{host}}/
-• http://{{host}}/cars
+* http://{{host}}/
+* http://{{host}}/cars
 
 ## How To Run
 
 1. Install Dependencies
-    npm i
+    >npm i
 3. Run on Dev Mode
-    npm start
+    >npm start
